@@ -26,6 +26,7 @@ This can be activated with `source venv/.boxed/bin/activate` and deactivated wit
 # Creating the package
 
 ## Folder structure
+```
 ├── docs
 ├── pyproject.toml
 ├── src
@@ -33,6 +34,7 @@ This can be activated with `source venv/.boxed/bin/activate` and deactivated wit
 │   │   ├── __init__.py
 │   │   └── boxed.py
 └── tests
+```
 
 ```mkdir -p src/boxed tests docs```
 
@@ -68,3 +70,26 @@ Then you can import and run functions from your new package
 from boxed.boxed import get_box
 print(get_box(20, "Box"))
 ```
+
+# Tests
+## Pytest
+Write a test file in `tests/` that will run with pytest.
+But you don't actually need to run pytest (or install it),
+we'll use nox to handle that.
+
+## Nox
+Install pipx to install nox so it is available globally.
+Create `noxfile.py`.
+```
+import nox
+
+@nox.session
+def tests(session):
+    session.install('numpy', 'pytest')
+    session.install('.')
+    session.run('pytest')`
+```
+
+You can then call `nox` and it will follow the `noxfile.py` to
+install and run pytest, pytest will automatically run the tests in
+out `tests/` folder.
