@@ -1,4 +1,4 @@
-from boxed.boxed import get_box, make_box
+from boxed.boxed import make_box
 
 
 def test_all_rows_equal_width():
