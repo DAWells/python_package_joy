@@ -18,8 +18,8 @@ urls."Source Code" = "https://github.com/DAWells/python_package_joy"
 urls."Bug Tracker" = "https://github.com/DAWells/python_package_joy/issues"
 
 classifiers = [
-    Intended Audience :: Science/Research
-    License :: Free For Educational Use
-    Natural Language :: English
-    Programming Language :: Python :: 3
+    "Intended Audience :: Science/Research",
+    "License :: Free For Educational Use",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
 ]
