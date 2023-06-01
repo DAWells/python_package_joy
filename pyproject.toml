@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "boxed"
 version = "0.1.1"
 description = "Print a box around short text to break code into sections."
-readme = "READMD.md"
+readme = "README.md"
 authors = [
     {name="David Wells"}
 ]
