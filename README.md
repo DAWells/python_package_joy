@@ -93,3 +93,9 @@ def tests(session):
 You can then call `nox` and it will follow the `noxfile.py` to
 install and run pytest, pytest will automatically run the tests in
 out `tests/` folder.
+
+# TOML revisited
+The guide provides more info on things worth including in your
+`pyproject.toml` file.
+
+# GitHub Actions

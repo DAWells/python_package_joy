@@ -4,4 +4,22 @@ build-backend = "hatchling.build"
 
 [project]
 name = "boxed"
-version = "0.1.0"
+version = "0.1.1"
+description = "Print a box around short text to break code into sections."
+readme = "READMD.md"
+authors = [
+    {name="David Wells"}
+]
+keywords = ["example", "guide"]
+
+requires-python = ">=3.6"
+
+urls."Source Code" = "https://github.com/DAWells/python_package_joy"
+urls."Bug Tracker" = "https://github.com/DAWells/python_package_joy/issues"
+
+classifiers = [
+    Intended Audience :: Science/Research
+    License :: Free For Educational Use
+    Natural Language :: English
+    Programming Language :: Python :: 3
+]
