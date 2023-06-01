@@ -12,7 +12,7 @@ authors = [
 ]
 keywords = ["example", "guide"]
 
-requires-python = ">=3.6"
+requires-python = ">=3.8"
 
 urls."Source Code" = "https://github.com/DAWells/python_package_joy"
 urls."Bug Tracker" = "https://github.com/DAWells/python_package_joy/issues"
